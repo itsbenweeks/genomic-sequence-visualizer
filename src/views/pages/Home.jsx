@@ -1,0 +1,21 @@
+// @flow
+
+import React from 'react'
+import styled from 'styled-components'
+
+import FakeUser from 'views/containers/FakeUser'
+
+import H1 from 'views/components/H1'
+
+const Wrapper = styled.div``
+
+const Home = () => (
+  <Wrapper>
+    <H1>genomic-sequence-visualizer</H1>
+    <FakeUser />
+  </Wrapper>
+)
+
+export {
+  Home as default
+}
